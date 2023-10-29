@@ -41,8 +41,14 @@ export default function Search() {
         <div className="weather-information">
           <h2>{weather.city}</h2>
           <h4>{weather.condition.description}</h4>
-          <h4>Temperature: {Math.round(weather.temperature.current)}°C</h4>
-          <h4>humidity: {Math.round(weather.temperature.current)}%</h4>
+          <h4>
+            Temperature: {Math.round(weather.temperature.current)}°
+            <small>C</small>
+          </h4>
+          <h4>humidity: {weather.temperature.humidity}%</h4>
+          <h4>
+            Wind Speed: {weather.wind.speed} <small>km/h</small>
+          </h4>
           <img
             src={weather.condition.icon_url}
             alt={weather.condition.description}
