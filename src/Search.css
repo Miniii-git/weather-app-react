@@ -2,3 +2,13 @@
   padding: 10px;
   margin: 5px;
 }
+
+.Search .weather-information {
+  text-align: left;
+}
+
+.Search .weather-information h4 {
+  font-weight: 600;
+  line-height: 3px;
+  color: rgb(67, 67, 67);
+}
