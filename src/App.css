@@ -1,13 +1,19 @@
 .App {
+  width: 500px;
+  height: 300px;
+  margin: 30px auto;
+}
+
+.App .main {
   text-align: center;
   border: 2px solid rgb(219, 217, 217);
   width: 500px;
   height: 300px;
-  margin: 50px auto;
   padding: 20px;
 }
 
 .App p {
-  margin-top: 30px;
   text-align: left;
+  margin-top: 5px;
+  font-size: 12px;
 }

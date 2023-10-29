@@ -4,11 +4,14 @@ import Search from "./Search";
 export default function App() {
   return (
     <div className="App">
-      <Search />
+      <div className="main">
+        <Search />
+      </div>
       <p>
+        This is an {""}
         <a href="https://github.com/Miniii-git/weather-app-react">
           open-source code
-        </a>
+        </a>{" "}
         , by Mini ♥
       </p>
     </div>
