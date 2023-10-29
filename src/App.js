@@ -1,9 +1,10 @@
 import "./App.css";
+import Search from "./Search";
 
 export default function App() {
   return (
     <div className="App">
-      <p>weather app react</p>
+      <Search />
     </div>
   );
 }
